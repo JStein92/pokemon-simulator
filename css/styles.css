@@ -1,0 +1,68 @@
+body{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+.myNewPokemon{
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 3px;
+}
+
+#wildPokemonWrapper, #selectedPokemonWrapper{
+  margin: 50px;
+  width: 300px;
+  text-align: center;
+  display:none;
+}
+#wildPokemonName, #selectedPokemonName{
+  font-weight: bold;
+  font-size: 3em;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+}
+#wildPokemonImg, #selectedPokemonImg{
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+
+  clip: rect(0px,60px,200px,0px);
+}
+
+#fightButton {
+  display: inline-block;
+}
+
+#battleLog {
+  margin-top: 20px;
+  width: 100%
+}
+#getRandom{
+  text-align: center;
+}
+#btnGetRandom{
+  font-size: 2em;
+}
+#battleLog{
+  display: none;
+}
+#myPokemonWrapper{
+  display: none;
+}
+.jumbotron h1{
+  text-align: center;
+}
+#throwPokeball{
+  text-align: center;
+
+  display: none;
+}
+#throwPokeballButton{
+    font-size: 1.2em;
+}
+#throwPokeball img{
+    width: 50px;
+}
+#fightButton{
+  font-size: 1.5em;
+}

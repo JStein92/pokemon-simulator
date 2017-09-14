@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <title>Pokemon</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Pokemon Simulator</h1>
+    </div>
+    <div class="container">
+
+        <form id="getRandom">
+          <button id="btnGetRandom"type="submit" class="btn btn-info">Search for Pokemon</button>
+        </form>
+        <div id ="wildPokemonWrapper" class="well">
+          <div class="wildPokemon">
+          </div>
+          <form id="throwPokeball">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Pokeball.PNG" alt="">
+            <button type="submit" class="btn btn-success" id="throwPokeballButton">Throw Pokeball</button>
+          </form>
+        </div>
+
+        <div class="well" id="selectedPokemonWrapper">
+          <div class="mySelectedPokemon">
+          </div>
+          <form id="fight">
+            <button id="fightButton" type="submit" class="btn btn-danger">Attack!</button>
+          </form>
+
+
+        </div>
+
+        <div id="battleLog" class="well">
+
+        </div>
+
+
+
+          <h1 class="page-header">My Pokemon</h1>
+          <div class="well" id="myPokemonWrapper">
+            <div class="myPokemon">
+
+            </div>
+          </div>
+        </div>
+
+  </body>
+</html>
